@@ -25,6 +25,10 @@ header p{
     margin-bottom: 30px;
 }
 
+header h3{
+    color: #3a4d39;
+}
+
 .inputSection{
     display: flex;
     flex-direction: column;
@@ -52,6 +56,10 @@ button{
     cursor: pointer;
 }
 
+#resetButton{
+    text-align: right;
+}
+
 button:hover{
     background-color: #496147;
 }
@@ -60,3 +68,24 @@ button:active{
     background-color: #3a4d39;
     transform: translateY(1px);
 }
+
+div h1{
+    color: #3a4d39;
+    background-color: #a0ec99;
+    padding: 40px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+div.judul{
+    text-align: center;
+    border-style:ridge; 
+    border-color: #a0ec99;
+}
+
+div.Channel{
+    border-style:ridge; 
+    border-color: #a0ec99;
+}
+
+halo
