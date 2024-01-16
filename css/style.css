@@ -87,3 +87,7 @@ div.Channel{
     border-style:ridge; 
     border-color: #a0ec99;
 }
+
+div.Channel h3{
+    text-align: center;
+}
