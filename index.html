@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Katik Persegi</title>
-    <script src="./js/script.js"></script>
+    <script src="/js/script.js"></script>
 </head>
 <body>
     <header>
@@ -15,19 +15,29 @@
         <h3>P. Panjang</h3>
     </header>
 
-    <div class="Channel">
+<div class="Channel">
+    <div class="Top">
     <div class="judul">
     <h1>Luas Persegi</h1>
     </div>
-    <img src="Persegi.png" style="display:block; margin:auto;">
+    <img src="Persegi.png" title="Bujur Sangkar" style="display:block; margin:auto;">
+    <h3>Bujur Sangkar</h3>
+    <p>Rumus Luas Persegi yaitu :</p>
+    <h3>L = S x S</h3>
+    <p>Di mana : <br>
+        L = Luas <br>
+        S = Sisi
+    </p>
+    </div>
+
     <div class="inputSection">
         <label for="squareSide" id="lblsquareSide">Hitung Luas Persegi</label>
-        <input type="number" id="squareSide">
+        <input type="number" id="squareSide" placeholder="Masukkan Nilai Sisi">
     </div>
     <div class="buttons">
-        <button id="countButton" onclick="hitungLuas()">Count</button>
+        <button onclick="hitungLuas()">Count</button>
         <button id="resetButton">Reset</button>
     </div>
-    </div>
+</div>
 </body>
 </html>
