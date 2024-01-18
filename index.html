@@ -5,43 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Katik Persegi</title>
-    <script src="/js/script.js"></script>
 </head>
 
 <body>
-    <header>
-        <h1>Kalkulator Luas dan Keliling Persegi</h1>
-        <h4>Selamat datang di Kalkulator Luas dan Keliling Persegi</h4>
-        <p>Web ini digunakan untuk menghitung luas dan keliling persegi Bertujuan untuk menyelesaikan mini project</p>
-        <h3>P. Panjang</h3>
-    </header>
+<form>
+        <header>
+            <h1>Kalkulator Luas dan Keliling Persegi</h1>
+            <h4>Selamat datang di Kalkulator Luas dan Keliling Persegi</h4>
+            <p>Web ini digunakan untuk menghitung luas dan keliling persegi Bertujuan untuk menyelesaikan mini project</p>
+            <h3>P. Panjang</h3>
+        </header>
+    <div class="Channel">
+        <div class="Top">
+            <div class="judul">
+                <h1>Luas Persegi</h1>
+        </div>
+            <img src="Persegi.png" title="Bujur Sangkar" style="display:block; margin:auto;">
+            <h3>Bujur Sangkar</h3>
+            <p>Rumus Luas Persegi yaitu :</p>
+            <h3>L = S x S</h3>
+            <p>Di mana : <br>
+                L = Luas <br>
+                S = Sisi
+            </p>
+        </div>
+    </div>
 
-<div class="Channel">
-    <div class="Top">
-        <div class="judul">
-            <h1>Luas Persegi</h1>
+    <div class="Proses">
+        <div class="inputSection">
+            <label>Hitung Luas Persegi</label>
+            <input type="number" id="sisi" placeholder="Masukkan NIlai Sisi">
+            <br>
+        </div>
+        <div class="button">
+            <button id="hitung" type="button" onclick="hitung()">Count</button>
+            <button id="reset" type="reset">Reset</button>
+            <label>Luas Persegi :</label>
+            <input id="luas" type="text" readonly>
+        </div>
     </div>
-        <img src="Persegi.png" title="Bujur Sangkar" style="display:block; margin:auto;">
-        <h3>Bujur Sangkar</h3>
-        <p>Rumus Luas Persegi yaitu :</p>
-        <h3>L = S x S</h3>
-        <p>Di mana : <br>
-            L = Luas <br>
-            S = Sisi
-        </p>
-    </div>
-</div>
-
-<div class="Proses">
-    <div class="inputSection">
-        <label for="sisi">Hitung Luas Persegi</label>
-        <input type="number" id="sisi" placeholder="Masukkan NIlai Sisi">
-    </div>
-    <div class="button">
-        <button type="button" class="sisi" href="javascript:hitungLuas()">Count</button>
-        <button id="resetButton">Reset</button>
-    </div>
-    <p id="hasil"></p>
-</div>
+</form>
+<script src="hitung()"></script>
 </body>
 </html>

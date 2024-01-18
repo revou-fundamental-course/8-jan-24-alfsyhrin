@@ -1,7 +1,10 @@
-function hitungLuas() {
+// File luas-persegi.js
+function hitung() {
+    // Mendapatkan nilai sisi dari input
     var sisi = document.getElementById("sisi").value;
-    sisi = parseInt(sisi);
+    // Menghitung luas persegi dengan rumus sisi * sisi
     var luas = sisi * sisi;
-    document.getElementById("hasil").innerHTML = "Luas persegi adalah " + luas;
-    console.log("Luas persegi adalah " + luas);
+    // Menampilkan hasil luas pada input lain
+    document.getElementById("luas").value = luas;
   }
+  
