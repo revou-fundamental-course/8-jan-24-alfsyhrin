@@ -26,12 +26,15 @@ header p{
 }
 
 header h3{
+    margin-top: 0px;
     color: #3a4d39;
 }
 
 .inputSection{
     display: flex;
     flex-direction: column;
+    border-radius: 4px;
+    border: none;
 }
 
 #squareSide{
@@ -44,6 +47,12 @@ header h3{
 
 #squareSide:focus{
     border: solid #222c22;
+}
+
+input{
+    border-radius: 8px;
+    border: solid #739072;
+    padding: 10px;
 }
 
 button{
@@ -64,9 +73,18 @@ button:hover{
     background-color: #496147;
 }
 
+button:disabled{
+    background-color: red;
+}
+
 button:active{
     background-color: #3a4d39;
     transform: translateY(1px);
+}
+
+div.Proses{
+    border-style:ridge; 
+    border-color: #a0ec99;
 }
 
 div h1{
@@ -90,4 +108,5 @@ div.Channel{
 
 div.Channel h3{
     text-align: center;
+    margin-top: 0%;
 }

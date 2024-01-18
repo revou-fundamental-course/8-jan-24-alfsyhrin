@@ -7,6 +7,7 @@
     <title>Katik Persegi</title>
     <script src="/js/script.js"></script>
 </head>
+
 <body>
     <header>
         <h1>Kalkulator Luas dan Keliling Persegi</h1>
@@ -31,14 +32,16 @@
     </div>
 </div>
 
-<form id="formPersegi">
+<div class="Proses">
+    <div class="inputSection">
         <label for="sisi">Hitung Luas Persegi</label>
-        <input type="number" id="sisi" name="sisi" min="0" required>
-        
-        <button type="button" onclick="hitungLuas()">Count</button>
+        <input type="number" id="sisi" placeholder="Masukkan NIlai Sisi">
+    </div>
+    <div class="button">
+        <button type="button" class="sisi" href="javascript:hitungLuas()">Count</button>
         <button id="resetButton">Reset</button>
-</form>
-<p id="hasil"></p>
-
+    </div>
+    <p id="hasil"></p>
+</div>
 </body>
 </html>
